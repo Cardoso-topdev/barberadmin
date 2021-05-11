@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ajbarbershop%E2%80%8B/static/css/main.55b5e532.chunk.css",
+    "main.js": "/ajbarbershop%E2%80%8B/static/js/main.0afa7b75.chunk.js",
+    "main.js.map": "/ajbarbershop%E2%80%8B/static/js/main.0afa7b75.chunk.js.map",
+    "runtime-main.js": "/ajbarbershop%E2%80%8B/static/js/runtime-main.1a203287.js",
+    "runtime-main.js.map": "/ajbarbershop%E2%80%8B/static/js/runtime-main.1a203287.js.map",
+    "static/js/2.8094bc8a.chunk.js": "/ajbarbershop%E2%80%8B/static/js/2.8094bc8a.chunk.js",
+    "static/js/2.8094bc8a.chunk.js.map": "/ajbarbershop%E2%80%8B/static/js/2.8094bc8a.chunk.js.map",
+    "static/js/3.bd786119.chunk.js": "/ajbarbershop%E2%80%8B/static/js/3.bd786119.chunk.js",
+    "static/js/3.bd786119.chunk.js.map": "/ajbarbershop%E2%80%8B/static/js/3.bd786119.chunk.js.map",
+    "index.html": "/ajbarbershop%E2%80%8B/index.html",
+    "static/css/main.55b5e532.chunk.css.map": "/ajbarbershop%E2%80%8B/static/css/main.55b5e532.chunk.css.map",
+    "static/js/2.8094bc8a.chunk.js.LICENSE.txt": "/ajbarbershop%E2%80%8B/static/js/2.8094bc8a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a203287.js",
+    "static/js/2.8094bc8a.chunk.js",
+    "static/css/main.55b5e532.chunk.css",
+    "static/js/main.0afa7b75.chunk.js"
+  ]
+}
