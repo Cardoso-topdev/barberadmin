@@ -18,28 +18,28 @@ function Home() {
 
         <div className="menu">
           <div className="menu-item">
-            <Link to="/barberadmin/overview">
+            <Link to="/overview">
               <MdAttachMoney />
               <h3>Overview</h3>
             </Link>
           </div>
 
           <div className="menu-item">
-            <Link to="/barberadmin/servicios">
+            <Link to="/servicios">
               <MdShoppingCart />
               <h3>Servicios</h3>
             </Link>
           </div>
 
           <div className="menu-item">
-            <Link to="/barberadmin/historialventas">
+            <Link to="/historialventas">
               <RiFileHistoryFill />
               <h3>Ventas</h3>
             </Link>
           </div>
 
           <div className="menu-item">
-            <Link to="/barberadmin/salidas">
+            <Link to="/salidas">
               <GiExpense />
               <h3>Salidas</h3>
             </Link>

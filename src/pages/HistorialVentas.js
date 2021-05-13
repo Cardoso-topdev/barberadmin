@@ -10,14 +10,15 @@ function HistorialVentas() {
   const fecha = new Date();
   const mes = fecha.getMonth() + 1;
   const hoy = `${fecha.getFullYear()}/${mes}/${fecha.getDate()}`;
+  console.log(hoy);
 
   const [service, setService] = useState([]);
 
   useEffect(() => {
     const consultarAPI = async () => {
       const { data } = await axios.post("https://ajbarbershop.herokuapp.com/registros", {hoy});
-      console.log(data[0]);
-      console.log(service.length);
+      setService(data[0]);
+      
     };
 
     consultarAPI();

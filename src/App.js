@@ -33,35 +33,35 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+       {/*  <Route exact path="/">
           <Redirect to="/barberadmin" />
-        </Route>
-        <Route exact path="/barberadmin" component={Home} />
-        <Route exact path="/barberadmin/overview" component={Overview} />
+        </Route>/*/}
+        <Route exact path="/" component={Home} />
+        <Route exact path="/overview" component={Overview} />
         <Route
           exact
-          path="/barberadmin/servicios"
+          path="/servicios"
           component={() => (
             <Servicios service={service} setIdServicio={setIdServicio} />
           )}
         />
         <Route
           exact
-          path="/barberadmin/nuevoservicio"
+          path="/nuevoservicio"
           component={() => <NuevoServicio setConsulta={setConsulta} />}
         />
         <Route
-          path="/barberadmin/transacciones/:id"
+          path="/transacciones/:id"
           component={() => <Transacciones idServicio={idServicio} />}
         />
         <Route
           exact
-          path="/barberadmin/salidas"
+          path="/salidas"
           component={() => <Salidas />}
         />
         <Route
           exact
-          path="/barberadmin/historialventas"
+          path="/historialventas"
           component={HistorialVentas}
         />
       </Switch>

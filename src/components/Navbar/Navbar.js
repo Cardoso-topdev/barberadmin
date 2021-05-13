@@ -13,16 +13,16 @@ function Navbar() {
         <Link to="/">
           <MdHome />
         </Link>
-        <Link to="/barberadmin/overview">
+        <Link to="/overview">
           <MdAttachMoney />
         </Link>
-        <Link to="/barberadmin/servicios">
+        <Link to="/servicios">
           <MdShoppingCart />
         </Link>
-        <Link to="/barberadmin/historialventas">
+        <Link to="/historialventas">
         <RiFileHistoryFill />
         </Link>
-        <Link to="/barberadmin/salidas">
+        <Link to="/salidas">
           <GiExpense />
         </Link>
       </nav>
